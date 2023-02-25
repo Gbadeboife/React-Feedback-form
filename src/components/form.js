@@ -24,7 +24,7 @@ function Form(){
           ]).then((res)=>{
             console.log('success');
             console.log(res)
-            history.push('/failure')}
+            history.push('/success')}
             ,function(err){
                 history.push('/failure')
                 console.log(err)
